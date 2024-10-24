@@ -1,0 +1,40 @@
+{
+	"label": "BASIC MOVES",
+	"mapping": {
+        "description": "system.description",
+		"moveResults": "system.moveResults"
+    },
+	"entries": {
+		"Act Under Pressure": {
+			"name": "Actuar Bajo Presión"
+		},
+		"Help Out": {
+			"name": "Help Out"
+		},
+		"Investigate a Mystery": {
+			"name": "Investigar un Misterio",
+			"description": "<p>Cuando investigas un misterio, <strong>tira +Agudeza</strong>.</p>",
+			"moveResults": {
+				"success": {
+				  "label": "Exito!",
+				  "value": "<p><strong>Con un 10+</strong>, obtienes 2 puntos de reserva.</p>"
+				}
+			}
+		},
+		"Kick Some Ass": {
+			"name": "Patear Culos"
+		},
+		"Manipulate Someone": {
+			"name": "Manipulate Someone"
+		},
+		"Protect Someone": {
+			"name": "Protect Someone"
+		},
+		"Read a Bad Situation": {
+			"name": "Read a Bad Situation"
+		},
+		"Use Magic": {
+			"name": "Use Magic"
+		}
+	}
+}
