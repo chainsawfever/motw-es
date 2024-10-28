@@ -6,10 +6,40 @@
     },
 	"entries": {
 		"Act Under Pressure": {
-			"name": "Actuar Bajo Presión"
+			"name": "Actuar Bajo Presión",
+			"description": "<p>Cuando usas actuar bajo presión, <strong>tira +Frialdad</strong>.</p>",
+			"moveResults": {
+				"success": {
+				  "label": "!Éxito!",
+				  "value": "<p>Con un <strong>10+</strong>, consigues hacer lo que te has propuesto.</p>"
+				},
+				"partial": {
+				  "label": "!Éxito Parcial!",
+				  "value": "<p>Con un <strong>7-9</strong>, el Guardián te va a proporcionar un resultado peor que el previsible, una elección difícil o un precio que pagar.</p>"
+				},
+				"failure": {
+				  "label": "Fallo...",
+				  "value": "<p>Con un <strong>fallo, las cosas se van al infierno</strong>.</p>"
+				}
+			}
 		},
 		"Help Out": {
-			"name": "Help Out"
+			"name": "Ayudar",
+			"description": "<p>Cuando ayudas a otro cazador para que lleve a cabo con éxito un mo- vimiento que está realizando, <strong>tira +Frialdad</strong>.</p>",
+			"moveResults": {
+				"success": {
+				  "label": "!Éxito!",
+				  "value": "<p>Con un <strong>10+</strong>, tu ayuda le proporciona un <strong>+1 a su tirada</strong>.</p>"
+				},
+				"partial": {
+				  "label": "!Éxito Parcial!",
+				  "value": "<p>Con un <strong>7-9</strong>, .</p>"
+				},
+				"failure": {
+				  "label": "Fallo...",
+				  "value": "<p>Con un <strong>fallo, </strong>.</p>"
+				}
+			}
 		},
 		"Investigate a Mystery": {
 			"name": "Investigar un Misterio",
@@ -17,24 +47,99 @@
 			"moveResults": {
 				"success": {
 				  "label": "Exito!",
-				  "value": "<p><strong>Con un 10+</strong>, obtienes 2 puntos de reserva.</p>"
+				  "value": "<p>Con un <strong>10+</strong>, obtienes 2 puntos de reserva.</p>"
 				}
 			}
 		},
 		"Kick Some Ass": {
-			"name": "Patear Culos"
+			"name": "Patear Culos",
+			"description": "<p>, <strong></strong>.</p>",
+			"moveResults": {
+				"success": {
+				  "label": "!Éxito!",
+				  "value": "<p>Con un <strong>10+</strong>, .</p>"
+				},
+				"partial": {
+				  "label": "!Éxito Parcial!",
+				  "value": "<p> <strong>7-9</strong>, .</p>"
+				},
+				"failure": {
+				  "label": "Fallo...",
+				  "value": "<p> <strong>fallo, </strong>.</p>"
+				}
+			}
 		},
 		"Manipulate Someone": {
-			"name": "Manipulate Someone"
+			"name": "Manipulate Someone",
+			"description": "<p>, <strong></strong>.</p>",
+			"moveResults": {
+				"success": {
+				  "label": "!Éxito!",
+				  "value": "<p>Con un <strong>10+</strong>, .</p>"
+				},
+				"partial": {
+				  "label": "!Éxito Parcial!",
+				  "value": "<p>Con un <strong>7-9</strong>, .</p>"
+				},
+				"failure": {
+				  "label": "Fallo...",
+				  "value": "<p>Con un <strong>fallo, </strong>.</p>"
+				}
+			}
 		},
 		"Protect Someone": {
-			"name": "Protect Someone"
+			"name": "Protect Someone",
+			"description": "<p>, <strong></strong>.</p>",
+			"moveResults": {
+				"success": {
+				  "label": "!Éxito!",
+				  "value": "<p>Con un <strong>10+</strong>, .</p>"
+				},
+				"partial": {
+				  "label": "!Éxito Parcial!",
+				  "value": "<p>Con un <strong>7-9</strong>, .</p>"
+				},
+				"failure": {
+				  "label": "Fallo...",
+				  "value": "<p>Con un <strong>fallo, </strong>.</p>"
+				}
+			}
 		},
 		"Read a Bad Situation": {
-			"name": "Read a Bad Situation"
+			"name": "Read a Bad Situation",
+			"description": "<p>, <strong></strong>.</p>",
+			"moveResults": {
+				"success": {
+				  "label": "!Éxito!",
+				  "value": "<p>Con un <strong>10+</strong>, .</p>"
+				},
+				"partial": {
+				  "label": "!Éxito Parcial!",
+				  "value": "<p>Con un <strong>7-9</strong>, .</p>"
+				},
+				"failure": {
+				  "label": "Fallo...",
+				  "value": "<p>Con un <strong>fallo, </strong>.</p>"
+				}
+			}
 		},
 		"Use Magic": {
-			"name": "Use Magic"
+			"name": "Use Magic",
+			"description": "<p>, <strong></strong>.</p>",
+			"moveResults": {
+				"success": {
+				  "label": "!Éxito!",
+				  "value": "<p>Con un <strong>10+</strong>, .</p>"
+				},
+				"partial": {
+				  "label": "!Éxito Parcial!",
+				  "value": "<p>Con un <strong>7-9</strong>, .</p>"
+				},
+				"failure": {
+				  "label": "Fallo...",
+				  "value": "<p>Con un <strong>fallo, </strong>.</p>"
+				}
+			}
 		}
 	}
 }
