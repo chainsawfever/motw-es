@@ -1,0 +1,59 @@
+{
+  "name": "Use Magic",
+  "type": "move",
+  "img": "icons/svg/dice-target.svg",
+  "effects": [],
+  "folder": "DRj2LdDqmJSAmzXJ",
+  "flags": {
+    "cf": {
+      "id": "temp_pzl3k1ewrs"
+    },
+    "core": {},
+    "babele": {
+      "translated": true,
+      "hasTranslation": true,
+      "originalName": "Use Magic"
+    },
+    "exportSource": {
+      "world": "monster-of-the-week",
+      "system": "pbta",
+      "coreVersion": "12.331",
+      "systemVersion": "1.1.8"
+    }
+  },
+  "system": {
+    "description": "<p>When you use magic, say what you’re trying to achieve and how you do the spell, then <strong>roll +Weird</strong>.</p>",
+    "moveType": "basic",
+    "rollFormula": "",
+    "moveResults": {
+      "success": {
+        "key": "data.moveResults.success.value",
+        "label": "Success!",
+        "value": "<p><strong>On a 10+</strong>, the magic works without issues: choose your effect. <br /><br /><strong>ADVANCED: On a 12+</strong> the Keeper will offer you some added benefit.</p>"
+      },
+      "partial": {
+        "key": "data.moveResults.partial.value",
+        "label": "Partial success",
+        "value": "<p><strong>On a 7-9</strong>, it works imperfectly: choose your effect and a glitch. The Keeper will decide what effect the glitch has.&nbsp;</p>"
+      },
+      "failure": {
+        "key": "data.moveResults.failure.value",
+        "label": "Miss...",
+        "value": "<p><strong>On a miss</strong>, you lose control of the magic. This never ends well.</p>"
+      }
+    },
+    "uses": 0,
+    "rollType": "weird",
+    "rollMod": 0,
+    "choices": "<p><strong>EFFECTS</strong></p>\n<ul>\n<li>Inflict harm (1-harm ignorearmour magic obvious).</li>\n<li>Enchant a weapon. It gets +1 harm and +magic.</li>\n<li>Do one thing that is beyond human limitations.</li>\n<li>Bar a place or portal to a specific person or a type of creature.</li>\n<li>Trap a specific person, minion, or monster.</li>\n<li>Banish a spirit or curse from the person, object, or place it inhabits.</li>\n<li>Summon a monster into the world.</li>\n<li>Communicate with something that you do not share a language with.</li>\n<li>Observe another place or time.</li>\n<li>Heal 1-harm from an injury, or cure a disease, or neutralize a poison. <br /><br /><strong>GLITCHES</strong></li>\n<li>The effect is weakened.</li>\n<li>The effect is of short duration.</li>\n<li>You take 1-harm ignore-armour.</li>\n<li>The magic draws immediate, unwelcome attention.</li>\n<li>It has a problematic side effect. <br /><br /><strong>THE KEEPER MAY SAY THAT...</strong></li>\n<li>The spell requires weird materials.</li>\n<li>The spell will take 10 seconds, 30 seconds, or 1 minute to cast.</li>\n<li>The spell requires ritual chanting and gestures.</li>\n<li>The spell requires you to draw arcane symbols.</li>\n<li>You need one or two people to help cast the spell.</li>\n<li>You need to refer to a tome of magic for the details.</li>\n</ul>",
+    "actorType": "character"
+  },
+  "_stats": {
+    "coreVersion": "12.331",
+    "systemId": "pbta",
+    "systemVersion": "1.1.8",
+    "createdTime": 1729774323560,
+    "modifiedTime": 1729774323560,
+    "lastModifiedBy": "Bf7q95BdgPNuTvR2"
+  }
+}

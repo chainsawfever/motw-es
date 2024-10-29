@@ -1,0 +1,59 @@
+{
+  "name": "Manipulate Someone",
+  "type": "move",
+  "img": "icons/svg/dice-target.svg",
+  "effects": [],
+  "folder": "DRj2LdDqmJSAmzXJ",
+  "flags": {
+    "cf": {
+      "id": "temp_pzl3k1ewrs"
+    },
+    "core": {},
+    "babele": {
+      "translated": true,
+      "hasTranslation": true,
+      "originalName": "Manipulate Someone"
+    },
+    "exportSource": {
+      "world": "monster-of-the-week",
+      "system": "pbta",
+      "coreVersion": "12.331",
+      "systemVersion": "1.1.8"
+    }
+  },
+  "system": {
+    "description": "<p>Once you have given them a reason, tell them what you want them to do and <strong>roll +Charm.</strong></p>\n<p>Monsters and minions cannot normally be manipulated.</p>",
+    "moveType": "basic",
+    "rollFormula": "",
+    "moveResults": {
+      "success": {
+        "key": "data.moveResults.success.value",
+        "label": "Success!",
+        "value": "<p><strong>For a normal person:</strong></p>\n<p><strong>On a 10+</strong>, then they&rsquo;ll do it for the reason you gave them. If you asked too much, they&rsquo;ll tell you the minimum it would take for them to do it (or if there&rsquo;s no way they&rsquo;d do it).<br /><br /><strong>ADVANCED: On a 12+</strong> not only do they do what you want right now, they also become your <strong>ally </strong>for the rest of the mystery (or, if you do enough for them, permanently).<br /><br /><strong>For another hunter: </strong></p>\n<p><strong>On a 10+</strong>, if they do what you ask they mark experience and get +1 forward.<br /><br /><strong>ADVANCED: On a 12+</strong> they must act under pressure to resist your request. If they do what you ask, they mark one experience and take +1 ongoing while doing what you asked.</p>"
+      },
+      "partial": {
+        "key": "data.moveResults.partial.value",
+        "label": "Partial success",
+        "value": "<p><strong>For a normal person:</strong></p>\n<p><strong>On a 7-9</strong>, they&rsquo;ll do it, but only if you do something for them right now to show that you mean it. If you asked too much, they&rsquo;ll tell you what, if anything, it would take for them to do it.&nbsp;<br /><br /><strong>For another hunter:</strong></p>\n<p><strong>On a 7-9</strong>, they mark experience if they do what you ask.&nbsp;</p>"
+      },
+      "failure": {
+        "key": "data.moveResults.failure.value",
+        "label": "Miss...",
+        "value": "<p><strong>For a normal person:</strong></p>\n<p><strong>On a miss, </strong>your approach is completely wrong: you offend or anger the target.<br /><br /><strong>For another hunter:</strong></p>\n<p><strong>On a miss</strong>, it&rsquo;s up to that hunter to decide how badly you offend or annoy them. They mark experience if they decide not to do what you asked.&nbsp;</p>"
+      }
+    },
+    "uses": 0,
+    "rollType": "charm",
+    "rollMod": 0,
+    "choices": "",
+    "actorType": "character"
+  },
+  "_stats": {
+    "coreVersion": "12.331",
+    "systemId": "pbta",
+    "systemVersion": "1.1.8",
+    "createdTime": 1729774323560,
+    "modifiedTime": 1729774323560,
+    "lastModifiedBy": "Bf7q95BdgPNuTvR2"
+  }
+}
