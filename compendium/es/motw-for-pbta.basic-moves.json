@@ -7,11 +7,11 @@
 	"entries": {
 		"Act Under Pressure": {
 			"name": "Actuar Bajo Presión",
-			"description": "<p>Cuando usas actuar bajo presión, <strong>tira +Frialdad</strong>.</p>",
+			"description": "<p>Cuando usas <strong>actuar bajo presión</strong>, <strong>tira +Frialdad</strong>.</p>",
 			"moveResults": {
 				"success": {
 				  "label": "¡Éxito!",
-				  "value": "<p>Con un <strong>10+</strong>, consigues hacer lo que te has propuesto.</p>"
+				  "value": "<p>Con un <strong>10+</strong>, consigues hacer lo que te has propuesto.</p>\n<p><strong>Movimiento Avanzado: Con un 12+</strong> superas completamente la presión. Puedes elegir entre hacer lo que pretendías hacer (y conseguir algo más adicional) o hacer lo que pretendías hacer con absoluta perfección (de tal forma que la gente hablará de ello durante los años venideros).</p>"
 				},
 				"partial": {
 				  "label": "¡Éxito Parcial!",
@@ -25,11 +25,11 @@
 		},
 		"Help Out": {
 			"name": "Ayudar",
-			"description": "<p>Cuando ayudas a otro cazador para que lleve a cabo con éxito un mo- vimiento que está realizando, <strong>tira +Frialdad</strong>.</p>",
+			"description": "<p>Cuando ayudas a otro cazador para que lleve a cabo con éxito un movimiento que está realizando, <strong>tira +Frialdad</strong>.</p>",
 			"moveResults": {
 				"success": {
 				  "label": "¡Éxito!",
-				  "value": "<p>Con un <strong>10+</strong>, tu ayuda le proporciona un <strong>+1 a su tirada</strong>.</p>"
+				  "value": "<p>Con un <strong>10+</strong>, tu ayuda le proporciona un <strong>+1 a su tirada</strong>.</p>\n<p><strong>Movimiento Avanzado: Con un 12+</strong> marcas la diferencia. La persona a la que ayudas actúa como si hubiera sacado un 12 en su propio movimiento, sin importar lo que haya sacado en realidad.</p>"
 				},
 				"partial": {
 				  "label": "¡Éxito Parcial!",
@@ -46,8 +46,8 @@
 			"description": "<p>Cuando investigas un misterio, <strong>tira +Agudeza</strong>.</p>",
 			"moveResults": {
 				"success": {
-				  "label": "Exito!",
-				  "value": "<p>Con un <strong>10+</strong>, obtienes <strong>2 puntos de reserva</strong>.</p>"
+				  "label": "¡Exito!",
+				  "value": "<p>Con un <strong>10+</strong>, obtienes <strong>2 puntos de reserva</strong>.</p>\n<p><strong>Movimiento Avanzado: Con un 12+</strong> puedes hacerle al Guardián cualquier pregunta que quieras sobre el misterio (no solo las de la lista del movimiento básico).</p>"
 				},
 				"partial": {
 				  "label": "¡Éxito Parcial!",
@@ -66,7 +66,7 @@
 			"moveResults": {
 				"success": {
 					"label": "¡Éxito!",
-					"value": "<p><strong>Con un 10+</strong>, eliges un efecto adicional:</p>\n<ul>\n<li>Ganas la ventaja: obtienes +1 futuro o le proporcionas +1 futuro a otro cazador.</li>\n<li>Infliges un daño terrible (+1 daño).</li>\n<li>Sufres menos daño (-1 daño).</li>\n<li>Obligas a tu enemigo a situarse donde quieres.</li>\n</ul>\n<p><br /><strong>AVANZADO: Con un 12+</strong> instead pick an enhanced effect:</p>\n<ul>\n<li>You completely hold the advantage.&nbsp;All hunters involved in the fight get +1 forward.</li>\n<li>You suffer no harm at all.</li>\n<li>Your attack inflicts double the normal harm.</li>\n<li>Your attack drives the enemy away in a rout.</li>\n</ul>"
+					"value": "<p><strong>Con un 10+</strong>, eliges un efecto adicional:</p>\n<ul>\n<li>Ganas la ventaja: obtienes +1 futuro o le proporcionas +1 futuro a otro cazador.</li>\n<li>Infliges un daño terrible (+1 daño).</li>\n<li>Sufres menos daño (-1 daño).</li>\n<li>Obligas a tu enemigo a situarse donde quieres.</li>\n</ul>\n<p><strong>Movimiento Avanzado: Con un 12+</strong> eliges uno de estos efectos mejorados:</p>\n<ul>\n<li>Obtienes una <strong>ventaja absoluta</strong>. Todos los cazadores involucrados en la pelea reciben +1 futuro.</li>\n<li>No recibes <strong>ningún daño</strong> en absoluto.</li>\n<li>Tu ataque inflige el <strong>doble del daño</strong> normal.</li>\n<li>Tu ataque hace que tu <strong>enemigo huya</strong> derrotado.</li>\n</ul>"
 				},
 				"partial": {
 					"label": "¡Éxito Parcial!",
@@ -84,7 +84,7 @@
 			"moveResults": {
 				"success": {
 					"label": "¡Éxito!",
-					"value": "<p><strong>Si se trata de una persona corriente:</strong></p>\n<p><strong>Con un 10+</strong>, hará lo que le pides por la razón que le has dado. Si lo que has pedido es excesivo, te dirá qué haría falta para que acceda (o te dirá que es imposible que lo haga).<br /><br /><strong>AVANZADO: Con un 12+</strong> not only do they do what you want right now, they also become your <strong>ally </strong>for the rest of the mystery (or, if you do enough for them, permanently).<br /><br /><strong>Si se trata de otro cazador: </strong></p>\n<p><strong>Con un 10+</strong>, si ese cazador decide hacer lo que le pides, se anotará experiencia y además obtendrá un bonificador +1 futuro.<br /><br /><strong>AVANZADO: Con un 12+</strong> they must act under pressure to resist your request. If they do what you ask, they mark one experience and take +1 ongoing while doing what you asked.</p>"
+					"value": "<p><strong>Si se trata de una persona corriente:</strong></p>\n<p><strong>Con un 10+</strong>, hará lo que le pides por la razón que le has dado. Si lo que has pedido es excesivo, te dirá qué haría falta para que acceda (o te dirá que es imposible que lo haga).<br /><strong>Movimiento Avanzado: Con un 12+</strong> no solo hará ahora mismo lo que quieres, también se convertirá en <strong>tu aliado</strong>. En este caso, durante el resto del misterio recibes la mejora de subida de nivel “aliado”. Si te esfuerzas por conservarlo a tu lado, se convertirá en permanente.<br /><strong>Si se trata de otro cazador: </strong></p>\n<p><strong>Con un 10+</strong>, si ese cazador decide hacer lo que le pides, se anotará experiencia y además obtendrá un bonificador +1 futuro.<br /><br /><strong>Movimiento Avanzado: Con un 12+</strong> deberá <strong>actuar bajo</strong> presión para resistirse a tu petición. Si hace lo que pides, se anotará un <strong>punto de experiencia</strong> y recibirá <strong>+1 continuo</strong> mientras actúe para conseguir cumplir tu petición.</p>"
 				},
 				"partial": {
 					"label": "¡Éxito Parcial!",
@@ -92,7 +92,7 @@
 				},
 				"failure": {
 					"label": "Fallo...",
-					"value": "<p><strong>Si se trata de una persona corriente:</strong></p>\n<p>Con un <strong>fallo, </strong>has abordado el tema de una forma totalmente erró- nea y haces que la persona se ofenda o enfurezca. <br /><br /><strong>Si se trata de otro cazador:</strong></p>\n<p><strong>Con un fallo</strong> ese cazador decidirá en qué forma lo has ofendido o molestado. Si decide no hacer lo que le pides, se anotará experiencia.</p>"
+					"value": "<p><strong>Si se trata de una persona corriente:</strong></p>\n<p>Con un <strong>fallo, </strong>has abordado el tema de una forma totalmente errónea y haces que la persona se ofenda o enfurezca. <br /><br /><strong>Si se trata de otro cazador:</strong></p>\n<p><strong>Con un fallo</strong> ese cazador decidirá en qué forma lo has ofendido o molestado. Si decide no hacer lo que le pides, se anotará experiencia.</p>"
 				}
 			}
 		},
@@ -102,7 +102,7 @@
 			"moveResults": {
 				"success": {
 				  "label": "¡Éxito!",
-				  "value": "<p>Con un <strong>10+</strong>, elige uno de estos <strong>extras</strong>:</p>\n<ul>\n<li>Sufres <strong>poco daño</strong> (-1 daño).</li>\n<li>Todo el <strong>peligro</strong> previsto se centra ahora sobre ti.</li>\n<li><strong>Infliges daño</strong> al enemigo.</li>\n<li><strong>Retienes</strong> al enemigo.</li>\n</ul>\n<p><strong>ADVANCED: on a 12+</strong> both you and the character you are protecting are unharmed and out of danger. If you were protecting a bystander, they also become your ally.</p>"
+				  "value": "<p>Con un <strong>10+</strong>, elige uno de estos <strong>extras</strong>:</p>\n<ul>\n<li>Sufres <strong>poco daño</strong> (-1 daño).</li>\n<li>Todo el <strong>peligro</strong> previsto se centra ahora sobre ti.</li>\n<li><strong>Infliges daño</strong> al enemigo.</li>\n<li><strong>Retienes</strong> al enemigo.</li>\n</ul>\n<p><strong>Movimiento Avanzado: con un 12+</strong> lo defiendes a la perfección. Tanto tú como el personaje al que proteges quedáis indemnes y fuera de peligro. Si estabas protegiendo a un espectador, también <strong>se convierte en tu aliado</strong> (en este caso, recibes la mejora de subida de nivel “aliado”).</p>"
 				},
 				"partial": {
 				  "label": "¡Éxito Parcial!",
@@ -120,7 +120,7 @@
 			"moveResults": {
 				"success": {
 				  "label": "¡Éxito!",
-				  "value": "<p>Con un <strong>10+</strong>, obtienes <strong>3 puntos</strong> de reserva. <strong>ADVANCED: On a 12+</strong> you may ask the Keeper any question you want about the situation, not just the listed ones.</p>"
+				  "value": "<p>Con un <strong>10+</strong>, obtienes <strong>3 puntos</strong> de reserva.</p>\n<p><strong>Movimiento Avanzado: Con un 12+</strong> puedes hacerle al Guardián cualquier pregunta que quieras sobre la situación (no solo las de la lista del movimiento básico).</p>"
 				},
 				"partial": {
 				  "label": "¡Éxito Parcial!",
@@ -128,10 +128,10 @@
 				},
 				"failure": {
 				  "label": "Fallo...",
-				  "value": "<p>Con un <strong>fallo, </strong>podrías malinterpretar la situación (ejemplo: “¡Aquí va todo bien! ¡No pasará nada si voy yo solo a investigar!”) o pue- de que reveles detalles tácticos a tus enemigos (eso significa que el Guardián puede formularte esas mismas preguntas a ti).</p>"
+				  "value": "<p>Con un <strong>fallo, </strong>podrías malinterpretar la situación (ejemplo: “¡Aquí va todo bien! ¡No pasará nada si voy yo solo a investigar!”) o puede que reveles detalles tácticos a tus enemigos (eso significa que el Guardián puede formularte esas mismas preguntas a ti).</p>"
 				}
 			},
-			"choices": "<p>Puedes gastar 1 punto de la reserva para hacerle al Guar- dián una de las siguientes preguntas:</p>\n<ul>\n<li>¿Cuál es la mejor forma para <strong>poder entrar</strong>?</li>\n<li>¿Cuál es la mejor forma de <strong>salir</strong>?</li>\n<li>¿Hay algún <strong>peligro</strong> que no hayamos descubierto?</li>\n<li>¿Cuál es la <strong>mayor amenaza</strong>?</li>\n<li>¿Quién es el <strong>más vulnerable</strong> ante mí?</li>\n<li>¿Cuál es la mejor manera de <strong>proteger a las víctimas</strong>?</li>\n</ul>\n<p>Si actúas conforme a las respuestas, recibirás <strong>+1 continuo</strong> mientras esa información siga siendo relevante.</p>"
+			"choices": "<p>Puedes gastar 1 punto de la reserva para hacerle al Guardián una de las siguientes preguntas:</p>\n<ul>\n<li>¿Cuál es la mejor forma para <strong>poder entrar</strong>?</li>\n<li>¿Cuál es la mejor forma de <strong>salir</strong>?</li>\n<li>¿Hay algún <strong>peligro</strong> que no hayamos descubierto?</li>\n<li>¿Cuál es la <strong>mayor amenaza</strong>?</li>\n<li>¿Quién es el <strong>más vulnerable</strong> ante mí?</li>\n<li>¿Cuál es la mejor manera de <strong>proteger a las víctimas</strong>?</li>\n</ul>\n<p>Si actúas conforme a las respuestas, recibirás <strong>+1 continuo</strong> mientras esa información siga siendo relevante.</p>"
 		},
 		"Use Magic": {
 			"name": "Use Magic",
@@ -139,7 +139,7 @@
 			"moveResults": {
 				"success": {
 				  "label": "¡Éxito!",
-				  "value": "<p>Con un <strong>10+</strong>, <strong>la magia funciona</strong> sin problemas. Elige tu efecto.</p>"
+				  "value": "<p>Con un <strong>10+</strong>, <strong>la magia funciona</strong> sin problemas. Elige tu efecto.</p>\n<p><strong>Movimiento Avanzado: Con un 12+</strong> estás impregnado con el poder de la magia. Ocurre exactamente aquello que pretendías conseguir y el Guardián te ofrecerá un beneficio adicional.</p>"
 				},
 				"partial": {
 				  "label": "¡Éxito Parcial!",
