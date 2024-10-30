@@ -1,0 +1,59 @@
+{
+  "name": "Help Out",
+  "type": "move",
+  "img": "icons/svg/dice-target.svg",
+  "effects": [],
+  "folder": "DRj2LdDqmJSAmzXJ",
+  "flags": {
+    "cf": {
+      "id": "temp_pzl3k1ewrs"
+    },
+    "core": {},
+    "babele": {
+      "translated": true,
+      "hasTranslation": true,
+      "originalName": "Help Out"
+    },
+    "exportSource": {
+      "world": "monster-of-the-week",
+      "system": "pbta",
+      "coreVersion": "12.331",
+      "systemVersion": "1.1.8"
+    }
+  },
+  "system": {
+    "description": "<p>When you help another hunter, <strong>roll +Cool</strong>.</p>\n<p>Note that help bonuses do not stack: if two people help out, the hunter just gets +1 on their roll.</p>",
+    "moveType": "basic",
+    "rollFormula": "",
+    "moveResults": {
+      "success": {
+        "key": "data.moveResults.success.value",
+        "label": "Success!",
+        "value": "<p><strong>On a 10+</strong> your help grants them +1 to their roll.<br /><br /><strong>ADVANCED: On a 12+</strong> your help lets them act as if they just rolled a 12, regardless of what they actually got.</p>"
+      },
+      "partial": {
+        "key": "data.moveResults.partial.value",
+        "label": "Partial success",
+        "value": "<p><strong>On a 7-9</strong> your help grants them +1 to their roll, but you also expose yourself to trouble or danger.&nbsp;</p>"
+      },
+      "failure": {
+        "key": "data.moveResults.failure.value",
+        "label": "Miss...",
+        "value": "<p><strong>On a miss</strong>, you expose yourself to trouble or danger without helping.</p>"
+      }
+    },
+    "uses": 0,
+    "rollType": "cool",
+    "rollMod": 0,
+    "choices": "",
+    "actorType": "character"
+  },
+  "_stats": {
+    "coreVersion": "12.331",
+    "systemId": "pbta",
+    "systemVersion": "1.1.8",
+    "createdTime": 1729774323560,
+    "modifiedTime": 1729774323560,
+    "lastModifiedBy": "Bf7q95BdgPNuTvR2"
+  }
+}

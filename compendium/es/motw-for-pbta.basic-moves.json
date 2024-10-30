@@ -2,39 +2,156 @@
 	"label": "BASIC MOVES",
 	"mapping": {
         "description": "system.description",
-		"moveResults": "system.moveResults"
+		"moveResults": "system.moveResults",
+		"choices": "system.choices"
     },
 	"entries": {
 		"Act Under Pressure": {
-			"name": "Actuar Bajo Presión"
+			"name": "Actuar Bajo Presión",
+			"description": "<p>Cuando usas <strong>actuar bajo presión</strong>, <strong>tira +Frialdad</strong>.</p>",
+			"moveResults": {
+				"success": {
+				  "label": "¡Éxito!",
+				  "value": "<p>Con un <strong>10+</strong>, consigues hacer lo que te has propuesto.</p>\n<p><strong>Movimiento Avanzado: Con un 12+</strong> superas completamente la presión. Puedes elegir entre hacer lo que pretendías hacer (y conseguir algo más adicional) o hacer lo que pretendías hacer con absoluta perfección (de tal forma que la gente hablará de ello durante los años venideros).</p>"
+				},
+				"partial": {
+				  "label": "¡Éxito Parcial!",
+				  "value": "<p>Con un <strong>7-9</strong>, el Guardián te va a proporcionar un resultado peor que el previsible, una elección difícil o un precio que pagar.</p>"
+				},
+				"failure": {
+				  "label": "Fallo...",
+				  "value": "<p>Con un <strong>fallo, las cosas se van al infierno</strong>.</p>"
+				}
+			}
 		},
 		"Help Out": {
-			"name": "Help Out"
+			"name": "Ayudar",
+			"description": "<p>Cuando ayudas a otro cazador para que lleve a cabo con éxito un movimiento que está realizando, <strong>tira +Frialdad</strong>.</p>",
+			"moveResults": {
+				"success": {
+				  "label": "¡Éxito!",
+				  "value": "<p>Con un <strong>10+</strong>, tu ayuda le proporciona un <strong>+1 a su tirada</strong>.</p>\n<p><strong>Movimiento Avanzado: Con un 12+</strong> marcas la diferencia. La persona a la que ayudas actúa como si hubiera sacado un 12 en su propio movimiento, sin importar lo que haya sacado en realidad.</p>"
+				},
+				"partial": {
+				  "label": "¡Éxito Parcial!",
+				  "value": "<p>Con un <strong>7-9</strong>, tu ayuda le proporciona un <strong>+1 a su tirada</strong>, pero tú te expones a un p<strong>roblema o peligro</strong>.</p>"
+				},
+				"failure": {
+				  "label": "Fallo...",
+				  "value": "<p>Con un <strong>fallo, </strong> te expones a un <strong>problema o peligro</strong> y no podrás recibir ayuda.</p>"
+				}
+			}
 		},
 		"Investigate a Mystery": {
 			"name": "Investigar un Misterio",
 			"description": "<p>Cuando investigas un misterio, <strong>tira +Agudeza</strong>.</p>",
 			"moveResults": {
 				"success": {
-				  "label": "Exito!",
-				  "value": "<p><strong>Con un 10+</strong>, obtienes 2 puntos de reserva.</p>"
+				  "label": "¡Exito!",
+				  "value": "<p>Con un <strong>10+</strong>, obtienes <strong>2 puntos de reserva</strong>.</p>\n<p><strong>Movimiento Avanzado: Con un 12+</strong> puedes hacerle al Guardián cualquier pregunta que quieras sobre el misterio (no solo las de la lista del movimiento básico).</p>"
+				},
+				"partial": {
+				  "label": "¡Éxito Parcial!",
+				  "value": "<p>Con un <strong>7-9</strong>, obtienes <strong>1 punto de reserva</strong>.</p>"
+				},
+				"failure": {
+				  "label": "Fallo...",
+				  "value": "<p>Con un <strong>fallo, </strong>serás tú quien le <strong>reveles alguna información</strong> al monstruo o a la persona con la que estés hablando. El Guardián podría hacerte algunas preguntas a las que deberás contestar.</p>"
+				}
+			},
+			"choices": "<p>Puedes gastar un punto de tu reserva para hacerle al Guardián una de las siguientes preguntas:</p>\n<ul>\n<li>¿Qué ocurrió aquí?</li>\n<li¿De qué tipo de criatura se trata?</li>\n<li>¿Qué puede hacer?</li>\n<li>¿Qué puede herirla?</li>\n<li>¿Hacia dónde fue?</li>\n<li>¿Qué iba a hacer?</li>\n<li>¿Qué se está ocultando aquí?</li>\n</ul>"
+		},
+		"Kick Some Ass": {
+			"name": "Patear Culos",
+			"description": "<p>Cuando te metes en una pelea y <strong>pateas culos, tira +Dureza</strong>.</p>",
+			"moveResults": {
+				"success": {
+					"label": "¡Éxito!",
+					"value": "<p><strong>Con un 10+</strong>, eliges un efecto adicional:</p>\n<ul>\n<li>Ganas la ventaja: obtienes +1 futuro o le proporcionas +1 futuro a otro cazador.</li>\n<li>Infliges un daño terrible (+1 daño).</li>\n<li>Sufres menos daño (-1 daño).</li>\n<li>Obligas a tu enemigo a situarse donde quieres.</li>\n</ul>\n<p><strong>Movimiento Avanzado: Con un 12+</strong> eliges uno de estos efectos mejorados:</p>\n<ul>\n<li>Obtienes una <strong>ventaja absoluta</strong>. Todos los cazadores involucrados en la pelea reciben +1 futuro.</li>\n<li>No recibes <strong>ningún daño</strong> en absoluto.</li>\n<li>Tu ataque inflige el <strong>doble del daño</strong> normal.</li>\n<li>Tu ataque hace que tu <strong>enemigo huya</strong> derrotado.</li>\n</ul>"
+				},
+				"partial": {
+					"label": "¡Éxito Parcial!",
+					"value": "<p><strong>Con cualquier éxito</strong>, (es decir, un total de 7+) tú y lo que sea contra lo que peleas os infligís <strong>daño mutuamente</strong>. La cantidad de daño se basa en los peligros establecidos en el juego. Eso suele significar que tú infliges la puntuación de daño de tu arma y tu enemigo te inflige la puntuación de daño de su ataque.</p>"
+				},
+				"failure": {
+					"label": "Fallo...",
+					"value": "<p>Con un <strong>fallo, </strong>te patean el culo a ti. <strong>Sufres daño o eres capturado</strong>, pero no infliges ningún daño en contrapartida.</p>"
 				}
 			}
 		},
-		"Kick Some Ass": {
-			"name": "Patear Culos"
-		},
 		"Manipulate Someone": {
-			"name": "Manipulate Someone"
+			"name": "Manipular a Alguien",
+			"description": "<p>Una vez que le has dado un motivo a esa persona, dile lo que quieres que haga y<strong> tira +Encanto.</strong>.</p>",
+			"moveResults": {
+				"success": {
+					"label": "¡Éxito!",
+					"value": "<p><strong>Si se trata de una persona corriente:</strong></p>\n<p><strong>Con un 10+</strong>, hará lo que le pides por la razón que le has dado. Si lo que has pedido es excesivo, te dirá qué haría falta para que acceda (o te dirá que es imposible que lo haga).</p>\n<p><strong>Movimiento Avanzado: Con un 12+</strong> no solo hará ahora mismo lo que quieres, también se convertirá en <strong>tu aliado</strong>. En este caso, durante el resto del misterio recibes la mejora de subida de nivel “aliado”. Si te esfuerzas por conservarlo a tu lado, se convertirá en permanente.<br /><strong>Si se trata de otro cazador: </strong></p>\n<p><strong>Con un 10+</strong>, si ese cazador decide hacer lo que le pides, se anotará experiencia y además obtendrá un bonificador +1 futuro.</p>\n<p><strong>Movimiento Avanzado: Con un 12+</strong> deberá <strong>actuar bajo</strong> presión para resistirse a tu petición. Si hace lo que pides, se anotará un <strong>punto de experiencia</strong> y recibirá <strong>+1 continuo</strong> mientras actúe para conseguir cumplir tu petición.</p>"
+				},
+				"partial": {
+					"label": "¡Éxito Parcial!",
+					"value": "<p><strong>Si se trata de una persona corriente:</strong></p>\n<p>Con un <strong>7-9</strong>, hará lo que le pides, pero solo si haces algo ahora mismo por ella y así demostrar que te importa. Si has pedido demasiado, te dirá lo que hará falta para que acceda (si tal cosa es posible). <br /><br /><strong>Si se trata de otro cazador:</strong></p>\n<p><strong>Con un 7-9</strong>, si ese cazador decide hacer lo que le pides, se anotará experiencia.</p>"
+				},
+				"failure": {
+					"label": "Fallo...",
+					"value": "<p><strong>Si se trata de una persona corriente:</strong></p>\n<p>Con un <strong>fallo, </strong>has abordado el tema de una forma totalmente errónea y haces que la persona se ofenda o enfurezca. <br /><br /><strong>Si se trata de otro cazador:</strong></p>\n<p><strong>Con un fallo</strong> ese cazador decidirá en qué forma lo has ofendido o molestado. Si decide no hacer lo que le pides, se anotará experiencia.</p>"
+				}
+			}
 		},
 		"Protect Someone": {
-			"name": "Protect Someone"
+			"name": "Proteger a Alguien",
+			"description": "<p>Cuando <strong>tratas de proteger</strong> a otro personaje para que no sufra daño, <strong>tira +Dureza</strong>.</p>",
+			"moveResults": {
+				"success": {
+				  "label": "¡Éxito!",
+				  "value": "<p>Con un <strong>10+</strong>, elige uno de estos <strong>extras</strong>:</p>\n<ul>\n<li>Sufres <strong>poco daño</strong> (-1 daño).</li>\n<li>Todo el <strong>peligro</strong> previsto se centra ahora sobre ti.</li>\n<li><strong>Infliges daño</strong> al enemigo.</li>\n<li><strong>Retienes</strong> al enemigo.</li>\n</ul>\n<p><strong>Movimiento Avanzado: con un 12+</strong> lo defiendes a la perfección. Tanto tú como el personaje al que proteges quedáis indemnes y fuera de peligro. Si estabas protegiendo a un espectador, también <strong>se convierte en tu aliado</strong> (en este caso, recibes la mejora de subida de nivel “aliado”).</p>"
+				},
+				"partial": {
+				  "label": "¡Éxito Parcial!",
+				  "value": "<p><strong>Con cualquier éxito</strong>, consigues protegerlo correctamente, pero recibirás todo o parte del daño que iba a recibir.</p>"
+				},
+				"failure": {
+				  "label": "Fallo...",
+				  "value": "<p>Con un <strong>fallo, </strong>terminas empeorando las cosas.</p>"
+				}
+			}
 		},
 		"Read a Bad Situation": {
-			"name": "Read a Bad Situation"
+			"name": "Interpretar una Mala Situación",
+			"description": "<p>Cuando empleas este movimiento para observar a tu alrededor e interpretar una situación que puede ser adversa, <strong>tira +Agudeza</strong>.</p>",
+			"moveResults": {
+				"success": {
+				  "label": "¡Éxito!",
+				  "value": "<p>Con un <strong>10+</strong>, obtienes <strong>3 puntos</strong> de reserva.</p>\n<p><strong>Movimiento Avanzado: Con un 12+</strong> puedes hacerle al Guardián cualquier pregunta que quieras sobre la situación (no solo las de la lista del movimiento básico).</p>"
+				},
+				"partial": {
+				  "label": "¡Éxito Parcial!",
+				  "value": "<p>Con un <strong>7-9</strong>, obtienes <strong>1 puntos</strong> de reserva.</p>"
+				},
+				"failure": {
+				  "label": "Fallo...",
+				  "value": "<p>Con un <strong>fallo, </strong>podrías malinterpretar la situación (ejemplo: “¡Aquí va todo bien! ¡No pasará nada si voy yo solo a investigar!”) o puede que reveles detalles tácticos a tus enemigos (eso significa que el Guardián puede formularte esas mismas preguntas a ti).</p>"
+				}
+			},
+			"choices": "<p>Puedes gastar 1 punto de la reserva para hacerle al Guardián una de las siguientes preguntas:</p>\n<ul>\n<li>¿Cuál es la mejor forma para <strong>poder entrar</strong>?</li>\n<li>¿Cuál es la mejor forma de <strong>salir</strong>?</li>\n<li>¿Hay algún <strong>peligro</strong> que no hayamos descubierto?</li>\n<li>¿Cuál es la <strong>mayor amenaza</strong>?</li>\n<li>¿Quién es el <strong>más vulnerable</strong> ante mí?</li>\n<li>¿Cuál es la mejor manera de <strong>proteger a las víctimas</strong>?</li>\n</ul>\n<p>Si actúas conforme a las respuestas, recibirás <strong>+1 continuo</strong> mientras esa información siga siendo relevante.</p>"
 		},
 		"Use Magic": {
-			"name": "Use Magic"
+			"name": "Usar Magia",
+			"description": "<p>Cuando utilizas el movimiento <strong>usar magia</strong>, di lo que intentas conseguir y narra cómo realizas el conjuro. Después, <strong> tira +Sobrenatural</strong>.</p>",
+			"moveResults": {
+				"success": {
+				  "label": "¡Éxito!",
+				  "value": "<p>Con un <strong>10+</strong>, <strong>la magia funciona</strong> sin problemas. Elige tu efecto.</p>\n<p><strong>Movimiento Avanzado: Con un 12+</strong> estás impregnado con el poder de la magia. Ocurre exactamente aquello que pretendías conseguir y el Guardián te ofrecerá un beneficio adicional.</p>"
+				},
+				"partial": {
+				  "label": "¡Éxito Parcial!",
+				  "value": "<p>Con un <strong>7-9</strong>, la magia funciona de forma imperfecta. Elige tu efecto y un defecto. El Guardián decidirá la consecuencia que produce ese defecto.</p>"
+				},
+				"failure": {
+				  "label": "Fallo...",
+				  "value": "<p>Con un <strong>fallo</strong>, <strong>pierdes el control</strong> de la magia. Estas cosas nunca acaban bien.</p>"
+				}
+			},
+			"choices": "<p><strong>Efectos</strong></p>\n<ul>\n<li><strong>Infliges daño</strong> [daño 1, ignora armadura, mágico, obvio].</li>\n<li><strong>Encantas un arma</strong>. Recibe +1 daño y la etiqueta [mágica].</li>\n<li>Haces algo que está <strong>por encima de las limitaciones</strong> humanas.</li>\n<li><strong>Proteges un lugar</strong> o una entrada contra una persona o un tipo de criatura específica.</li>\n<li><strong>Atrapas a una persona</strong>, esbirro o monstruo específico.</li>\n<li><strong>Expulsas a un espíritu</strong> o maldición de una persona, objeto o lugar que habita.</li>\n<li><strong>Invocas</strong> un monstruo, que hace acto de presencia en el mundo.</li>\n<li><strong>Te comunicas</strong> con algo con lo que no compartes idioma.</li>\n<li>Contemplas <strong>otro lugar o tiempo</strong>.</li>\n<li><strong>Curas 1 daño</strong> de una herida, sanas una enfermedad o neutralizas un veneno.</li></ul>\n<p><strong>Defectos</strong></p><ul><li>El efecto queda <strong>debilitado</strong>.</li>\n<li>El efecto es de <strong>corta duración</strong>.</li>\n<li>Recibes <strong>1 daño</strong>, con la etiqueta [ignora armadura].</li>\n<li>La magia <strong>atrae atención</strong> inmediata e inoportuna.</li>\n<li>El conjuro tiene un <strong>efecto secundario</strong> problemático.</li></ul>\n<p><strong>Puede que el Guardián exija que el conjuro cumpla uno o más de los siguientes puntos:</strong></p><ul><li>El conjuro requiere que uses <strong>componentes extraños</strong>.</li>\n<li><strong>Se tarda</strong> 10 s, 30 s o 1 minuto en pronunciar el conjuro.</li>\n<li>El conjuro requiere que se realicen <strong>cánticos y gestos rituales</strong>.</li>\n<li>El conjuro requiere que dibujes <strong>símbolos arcanos</strong>.</li>\n<li>Necesitas que una o dos personas <strong>te ayuden</strong> a pronunciar el conjuro.</li>\n<li>Debes consultar un tomo de magia para obtener detalles sobre el conjuro.</li>\n</ul>"
 		}
 	}
 }

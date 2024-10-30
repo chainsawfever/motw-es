@@ -1,0 +1,59 @@
+{
+  "name": "Protect Someone",
+  "type": "move",
+  "img": "icons/svg/dice-target.svg",
+  "effects": [],
+  "folder": "DRj2LdDqmJSAmzXJ",
+  "flags": {
+    "cf": {
+      "id": "temp_pzl3k1ewrs"
+    },
+    "core": {},
+    "babele": {
+      "translated": true,
+      "hasTranslation": true,
+      "originalName": "Protect Someone"
+    },
+    "exportSource": {
+      "world": "monster-of-the-week",
+      "system": "pbta",
+      "coreVersion": "12.331",
+      "systemVersion": "1.1.8"
+    }
+  },
+  "system": {
+    "description": "<p>When you prevent harm to another character, <strong>roll +Tough</strong>.</p>",
+    "moveType": "basic",
+    "rollFormula": "",
+    "moveResults": {
+      "success": {
+        "key": "data.moveResults.success.value",
+        "label": "Success!",
+        "value": "<p><strong>On a 10+</strong> choose an extra:</p>\n<ul>\n<li>You suffer little harm (-1 harm).</li>\n<li>All impending danger is now focused on you.</li>\n<li>You inflict harm on the enemy.</li>\n<li>You hold the enemy back.</li>\n</ul>\n<p><strong>ADVANCED: on a 12+</strong> both you and the character you are protecting are unharmed and out of danger. If you were protecting a bystander, they also become your ally.</p>"
+      },
+      "partial": {
+        "key": "data.moveResults.partial.value",
+        "label": "Partial success",
+        "value": "<p><strong>On a 7+</strong>, you protect them okay, but you&rsquo;ll suffer some or all of the harm they were going to get.</p>"
+      },
+      "failure": {
+        "key": "data.moveResults.failure.value",
+        "label": "Miss...",
+        "value": "<p><strong>On a miss</strong>, then you end up making things worse.</p>"
+      }
+    },
+    "uses": 0,
+    "rollType": "tough",
+    "rollMod": 0,
+    "choices": "",
+    "actorType": "character"
+  },
+  "_stats": {
+    "coreVersion": "12.331",
+    "systemId": "pbta",
+    "systemVersion": "1.1.8",
+    "createdTime": 1729774323560,
+    "modifiedTime": 1729774323560,
+    "lastModifiedBy": "Bf7q95BdgPNuTvR2"
+  }
+}

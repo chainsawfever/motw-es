@@ -1,0 +1,59 @@
+{
+  "name": "Investigar un Misterio",
+  "type": "move",
+  "img": "icons/svg/dice-target.svg",
+  "effects": [],
+  "folder": "DRj2LdDqmJSAmzXJ",
+  "flags": {
+    "cf": {
+      "id": "temp_pzl3k1ewrs"
+    },
+    "core": {},
+    "babele": {
+      "translated": true,
+      "hasTranslation": true,
+      "originalName": "Investigate a Mystery"
+    },
+    "exportSource": {
+      "world": "monster-of-the-week",
+      "system": "pbta",
+      "coreVersion": "12.331",
+      "systemVersion": "1.1.8"
+    }
+  },
+  "system": {
+    "description": "<p>Cuando investigas un misterio, <strong>tira +Agudeza</strong>.</p>",
+    "moveType": "basic",
+    "rollFormula": "",
+    "moveResults": {
+      "success": {
+        "key": "data.moveResults.success.value",
+        "label": "Exito!",
+        "value": "<p><strong>Con un 10+</strong>, obtienes 2 puntos de reserva.</p>"
+      },
+      "partial": {
+        "key": "data.moveResults.partial.value",
+        "label": "Partial success",
+        "value": "<p><strong>On a 7-9</strong> hold 1.</p>"
+      },
+      "failure": {
+        "key": "data.moveResults.failure.value",
+        "label": "Miss...",
+        "value": "<p><strong>On a miss</strong>, you reveal some information to the monster or whoever you are talking to. The Keeper might ask you some questions, which you have to answer.</p>"
+      }
+    },
+    "uses": 0,
+    "rollType": "sharp",
+    "rollMod": 0,
+    "choices": "<p>One hold can be spent to ask the Keeper one of the following questions:</p>\n<ul>\n<li>What happened here?</li>\n<li>What sort of creature is it?</li>\n<li>What can it do?</li>\n<li>What can hurt it?</li>\n<li>Where did it go?</li>\n<li>What was it going to do?</li>\n<li>What is being concealed here?</li>\n</ul>",
+    "actorType": "character"
+  },
+  "_stats": {
+    "coreVersion": "12.331",
+    "systemId": "pbta",
+    "systemVersion": "1.1.8",
+    "createdTime": 1729774323560,
+    "modifiedTime": 1729774323560,
+    "lastModifiedBy": "Bf7q95BdgPNuTvR2"
+  }
+}

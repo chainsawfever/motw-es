@@ -1,0 +1,59 @@
+{
+  "name": "Patear Culos",
+  "type": "move",
+  "img": "icons/svg/dice-target.svg",
+  "effects": [],
+  "folder": "DRj2LdDqmJSAmzXJ",
+  "flags": {
+    "cf": {
+      "id": "temp_pzl3k1ewrs"
+    },
+    "core": {},
+    "babele": {
+      "translated": true,
+      "hasTranslation": true,
+      "originalName": "Kick Some Ass"
+    },
+    "exportSource": {
+      "world": "monster-of-the-week",
+      "system": "pbta",
+      "coreVersion": "12.331",
+      "systemVersion": "1.1.8"
+    }
+  },
+  "system": {
+    "description": "<p>When you get into a fight and kick some ass, <strong>roll +Tough.</strong></p>",
+    "moveType": "basic",
+    "rollFormula": "",
+    "moveResults": {
+      "success": {
+        "key": "data.moveResults.success.value",
+        "label": "Success!",
+        "value": "<p><strong>On a 10+</strong>, choose one extra effect:</p>\n<ul>\n<li>You gain the advantage: take +1 forward, or give +1 forward to another hunter.</li>\n<li>You inflict terrible harm (+1 harm).</li>\n<li>You suffer less harm (-1 harm).</li>\n<li>You force them where you want them.</li>\n</ul>\n<p><br /><strong>ADVANCED: On a 12+</strong> instead pick an enhanced effect:</p>\n<ul>\n<li>You completely hold the advantage.&nbsp;All hunters involved in the fight get +1 forward.</li>\n<li>You suffer no harm at all.</li>\n<li>Your attack inflicts double the normal harm.</li>\n<li>Your attack drives the enemy away in a rout.</li>\n</ul>"
+      },
+      "partial": {
+        "key": "data.moveResults.partial.value",
+        "label": "Partial success",
+        "value": "<p><strong>On a 7+</strong>, you and whatever you&rsquo;re fighting inflict harm on each other. The amount of harm is based on the established dangers in the game. That usually means you inflict the harm rating of your weapon and your enemy inflicts their attack&rsquo;s harm rating on you.</p>"
+      },
+      "failure": {
+        "key": "data.moveResults.failure.value",
+        "label": "Miss...",
+        "value": "<p><strong>On a miss</strong>, you get your ass kicked instead. You suffer harm or get captured, but don&rsquo;t inflict any harm back.</p>"
+      }
+    },
+    "uses": 0,
+    "rollType": "tough",
+    "rollMod": 0,
+    "choices": "",
+    "actorType": "character"
+  },
+  "_stats": {
+    "coreVersion": "12.331",
+    "systemId": "pbta",
+    "systemVersion": "1.1.8",
+    "createdTime": 1729774323560,
+    "modifiedTime": 1729774323560,
+    "lastModifiedBy": "Bf7q95BdgPNuTvR2"
+  }
+}
