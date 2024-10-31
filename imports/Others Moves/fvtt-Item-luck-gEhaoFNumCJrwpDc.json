@@ -1,0 +1,51 @@
+{
+  "name": "Luck",
+  "type": "move",
+  "img": "icons/svg/daze.svg",
+  "effects": [],
+  "folder": "zAA8lZuVzs5rv8gP",
+  "flags": {
+    "core": {},
+    "exportSource": {
+      "world": "monster-of-the-week",
+      "system": "pbta",
+      "coreVersion": "12.331",
+      "systemVersion": "1.1.8"
+    }
+  },
+  "system": {
+    "description": "<p>When you spend a point of Luck, pick one:</p>\n<ul>\n<li>Decrease a wound you have suffered to 0 harm.</li>\n<li>After you roll, retroactively change the result to a 12.</li>\n<li>When you have no luck left, bad things will happen to you.</li>\n</ul>",
+    "moveType": "",
+    "rollFormula": "",
+    "moveResults": {
+      "success": {
+        "key": "data.moveResults.success.value",
+        "label": "Success!",
+        "value": ""
+      },
+      "partial": {
+        "key": "data.moveResults.partial.value",
+        "label": "Partial success",
+        "value": ""
+      },
+      "failure": {
+        "key": "data.moveResults.failure.value",
+        "label": "Miss...",
+        "value": ""
+      }
+    },
+    "uses": 0,
+    "rollType": "",
+    "rollMod": 0,
+    "choices": "",
+    "actorType": "character"
+  },
+  "_stats": {
+    "coreVersion": "12.331",
+    "systemId": "pbta",
+    "systemVersion": "1.1.8",
+    "createdTime": 1729774610477,
+    "modifiedTime": 1729774610477,
+    "lastModifiedBy": "Bf7q95BdgPNuTvR2"
+  }
+}

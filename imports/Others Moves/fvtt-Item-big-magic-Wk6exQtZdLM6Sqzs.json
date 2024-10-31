@@ -1,0 +1,51 @@
+{
+  "name": "Big Magic",
+  "type": "move",
+  "img": "icons/svg/daze.svg",
+  "effects": [],
+  "folder": "zAA8lZuVzs5rv8gP",
+  "flags": {
+    "core": {},
+    "exportSource": {
+      "world": "monster-of-the-week",
+      "system": "pbta",
+      "coreVersion": "12.331",
+      "systemVersion": "1.1.8"
+    }
+  },
+  "system": {
+    "description": "<p>Use this when you want more than the Use Magic effects. Tell the Keeper what you want to do.<br /><br /></p>\n<p><strong>THE KEEPER MAY REQUIRE</strong></p>\n<ul>\n<li>You need to spend a lot of time (days or weeks) researching the magic ritual.</li>\n<li>You need to experiment with the spell – there will be lots of failures before you get it right.</li>\n<li>You need some rare and weird ingredients and supplies.</li>\n<li>The spell will take a long time (hours or days) to cast.</li>\n<li>You need a lot of people (2, 3, 7, 13, or more) to help.</li>\n<li>The spell needs to be cast at a particular place and/or time.</li>\n<li>You need to use magic as part of the ritual, perhaps to summon a monster, communicate with something, or bar the portal you opened.</li>\n<li>It will have a specific side-effect or danger.</li>\n</ul>\n<p>If you meet the requirements, then the magic takes effect.</p>",
+    "moveType": "",
+    "rollFormula": "",
+    "moveResults": {
+      "success": {
+        "key": "data.moveResults.success.value",
+        "label": "Success!",
+        "value": ""
+      },
+      "partial": {
+        "key": "data.moveResults.partial.value",
+        "label": "Partial success",
+        "value": ""
+      },
+      "failure": {
+        "key": "data.moveResults.failure.value",
+        "label": "Miss...",
+        "value": ""
+      }
+    },
+    "uses": 0,
+    "rollType": "",
+    "rollMod": 0,
+    "choices": "",
+    "actorType": "character"
+  },
+  "_stats": {
+    "coreVersion": "12.331",
+    "systemId": "pbta",
+    "systemVersion": "1.1.8",
+    "createdTime": 1729774610477,
+    "modifiedTime": 1729774610477,
+    "lastModifiedBy": "Bf7q95BdgPNuTvR2"
+  }
+}

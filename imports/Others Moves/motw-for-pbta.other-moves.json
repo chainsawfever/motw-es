@@ -1,0 +1,23 @@
+{
+	"label": "OTHER MOVES",
+	"entries": {
+		"Big Magic": {
+			"name": "Big Magic"
+		},
+		"End of Session": {
+			"name": "End of Session"
+		},
+		"Harm": {
+			"name": "Harm"
+		},
+		"Leveling Up": {
+			"name": "Leveling Up"
+		},
+		"Luck": {
+			"name": "Luck"
+		},
+		"Recovery": {
+			"name": "Recovery"
+		}
+	}
+}

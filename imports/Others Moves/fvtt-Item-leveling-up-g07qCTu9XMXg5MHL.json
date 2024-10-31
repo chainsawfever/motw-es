@@ -1,0 +1,51 @@
+{
+  "name": "Leveling Up",
+  "type": "move",
+  "img": "icons/svg/daze.svg",
+  "effects": [],
+  "folder": "zAA8lZuVzs5rv8gP",
+  "flags": {
+    "core": {},
+    "exportSource": {
+      "world": "monster-of-the-week",
+      "system": "pbta",
+      "coreVersion": "12.331",
+      "systemVersion": "1.1.8"
+    }
+  },
+  "system": {
+    "description": "<p>Mark an experience point whenever your roll totals six or less, or when a move tells you to.</p>\n<p>Whenever you mark the fifth experience box, level up. Erase all five marks and choose an improvement from your list. After you have levelled up five times, you may choose from the advanced improvement list as well.</p>",
+    "moveType": "",
+    "rollFormula": "",
+    "moveResults": {
+      "success": {
+        "key": "data.moveResults.success.value",
+        "label": "Success!",
+        "value": ""
+      },
+      "partial": {
+        "key": "data.moveResults.partial.value",
+        "label": "Partial success",
+        "value": ""
+      },
+      "failure": {
+        "key": "data.moveResults.failure.value",
+        "label": "Miss...",
+        "value": ""
+      }
+    },
+    "uses": 0,
+    "rollType": "",
+    "rollMod": 0,
+    "choices": "",
+    "actorType": "character"
+  },
+  "_stats": {
+    "coreVersion": "12.331",
+    "systemId": "pbta",
+    "systemVersion": "1.1.8",
+    "createdTime": 1729774610477,
+    "modifiedTime": 1729774610477,
+    "lastModifiedBy": "Bf7q95BdgPNuTvR2"
+  }
+}
