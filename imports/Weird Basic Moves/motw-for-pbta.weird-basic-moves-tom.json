@@ -1,0 +1,29 @@
+{
+	"label": "WEIRD BASIC MOVES [ToM]",
+	"entries": {
+		"Empath": {
+			"name": "Empath"
+		},
+		"Illuminated": {
+			"name": "Illuminated"
+		},
+		"No Limits": {
+			"name": "No Limits"
+		},
+		"Past Lives": {
+			"name": "Past Lives"
+		},
+		"Sensitive": {
+			"name": "Sensitive"
+		},
+		"Telekinesis": {
+			"name": "Telekinesis"
+		},
+		"Trust Your Gut": {
+			"name": "Trust Your Gut"
+		},
+		"Weird Science": {
+			"name": "Weird Science"
+		}
+	}
+}

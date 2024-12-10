@@ -1,0 +1,48 @@
+{
+	"label": "WEIRD BASIC MOVES [ToM]",
+	"mapping": {
+        "description": "system.description",
+		"moveResults": "system.moveResults"
+    },
+	"entries": {
+		"Empath": {
+			"name": "Empath"
+		},
+		"Illuminated": {
+			"name": "Illuminated"
+		},
+		"No Limits": {
+			"name": "No Limits"
+		},
+		"Past Lives": {
+			"name": "Past Lives"
+		},
+		"Sensitive": {
+			"name": "Sensitive"
+		},
+		"Telekinesis": {
+			"name": "Telekinesis"
+		},
+		"Trust Your Gut": {
+			"name": "Confía en tu Instinto",
+			"description": "<p>Cuando usas <strong>actuar bajo presión</strong>, <strong>tira +Frialdad</strong>.</p>",
+			"moveResults": {
+				"success": {
+				  "label": "¡Éxito!",
+				  "value": "<p>Con un <strong>10+</strong>, el Guardian te dice hacía donde tienes que ir. Sea donde sea, te llevará a algo importante. Consiges +1 continuo en tu camino a ese lugar.<br><br></p>\n<h4>Confía en tu Instinto Avanzado</h4>\n<p><strong>On a 12 or more</strong>, in addition to the usual 10+ result, the Keeper will tell you about one important thing you should investigate further.</p>"
+				},
+				"partial": {
+				  "label": "¡Éxito Parcial!",
+				  "value": "<p>Con un <strong>7-9</strong>, el Guardian te da unas indicaciones generales de hacía que dirección tienes que ir. +1 Futuro si siguas esa dirección.</p>"
+				},
+				"failure": {
+				  "label": "Fallo...",
+				  "value": "Con un <strong>fallo</strong>, tu instinto te lleva de cabeza al peligro.</p>"
+				}
+			}
+		},
+		"Weird Science": {
+			"name": "Weird Science"
+		}
+	}
+}

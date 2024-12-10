@@ -1,0 +1,51 @@
+{
+  "folder": null,
+  "name": "Trust Your Gut",
+  "type": "move",
+  "img": "icons/svg/dice-target.svg",
+  "system": {
+    "description": "<p>When you <strong>consult your instincts</strong> about what to do next, roll +Weird.</p>\n<p>Your gut feelings will point you somewhere important, but they do not care about your conscious concerns. To your gut, the current mystery is just one important thing amongst many.</p>",
+    "moveType": "altMove",
+    "rollFormula": "",
+    "moveResults": {
+      "success": {
+        "key": "system.moveResults.success.value",
+        "label": "Success!",
+        "value": "<p><strong>On a 10 or more</strong>, the Keeper will tell where you should go. Wherever that is, it will be important. You get +1 ongoing on the way to this place.<br><br></p>\n<h4>Advanced Trust Your Gut</h4>\n<p><strong>On a 12 or more</strong>, in addition to the usual 10+ result, the Keeper will tell you about one important thing you should investigate further.</p>"
+      },
+      "partial": {
+        "key": "system.moveResults.partial.value",
+        "label": "Partial success",
+        "value": "<p><strong>On a 7-9</strong>, the Keeper will tell you a general direction to go. Take +1 forward as you explore that.</p>"
+      },
+      "failure": {
+        "key": "system.moveResults.failure.value",
+        "label": "Miss...",
+        "value": "<p><strong>On a miss</strong>, your instincts lead you into danger.</p>"
+      }
+    },
+    "uses": 0,
+    "rollType": "weird",
+    "rollMod": 0,
+    "actorType": "character",
+    "choices": ""
+  },
+  "effects": [],
+  "flags": {
+    "core": {},
+    "exportSource": {
+      "world": "monster-of-the-week",
+      "system": "pbta",
+      "coreVersion": "12.331",
+      "systemVersion": "1.1.9"
+    }
+  },
+  "_stats": {
+    "coreVersion": "12.331",
+    "systemId": "pbta",
+    "systemVersion": "1.1.9",
+    "createdTime": 1733830986430,
+    "modifiedTime": 1733830986430,
+    "lastModifiedBy": "ekaZ7z9xwKEUE3Ii"
+  }
+}
